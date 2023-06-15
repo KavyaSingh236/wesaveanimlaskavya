@@ -1,0 +1,741 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Diphylleia&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+
+    display: flex;
+    align-items: center;
+    background-color: #138808;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 45px;
+
+
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+    margin: right;
+
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: large;
+
+}
+
+nav ul li a:hover {
+    color: #FF9933;
+
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.logo img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.container {
+
+    min-height: auto
+}
+
+.mainheading h1 {
+    margin: -300px 100px;
+    text-align: center;
+    padding-right: 800px;
+    font-family: 'Aoboshi One', serif;
+    color: #FFFFFF;
+
+
+}
+
+.mainheading p {
+    color: #FF9933;
+    margin: 300px;
+    font-size: large;
+}
+
+
+.mainlogo img {
+    width: 400px;
+    border-radius: 50%;
+    margin-top: -250px;
+
+    margin-left: 540px;
+}
+
+.mainimage img {
+    height: 500px;
+    width: 400px;
+    padding: 25px;
+    float: right;
+    border-radius: 50px;
+    margin: -350px -23px;
+    pointer-events: none;
+    position: relative;
+    z-index: 9;
+    --delay: 0s;
+    animation: arrows 4s var(--delay) infinite ease-in;
+
+}
+
+@keyframes arrows {
+
+    0%,
+    100% {
+        color: black;
+        transform: translateY(0);
+    }
+
+    50% {
+
+        transform: translateY(20px);
+    }
+}
+
+
+.donateheading {
+    text-align: center;
+    margin-top: -390px;
+    margin-left: -2px;
+    background-color: lightpink;
+    height: 500px
+}
+
+.donateheading h1 {
+    padding: 300px;
+    color: black;
+    font-size: 4em;
+    width: 800px;
+    text-decoration: underline;
+}
+
+.donateheading h1:hover {
+    color: #000080;
+}
+
+.onedayimage img {
+    height: 300px;
+    width: 400px;
+    margin-top: 65px;
+    margin-left: 20px;
+}
+
+.image2oneday img {
+    height: 300px;
+    width: 400px;
+    margin-top: -235px;
+    margin-left: 1110px;
+}
+
+.oneday-content {
+    margin-left: -50px;
+}
+
+.oneday h1 {
+    text-align: center;
+    color: rgba(255, 95, 0, 1);
+    margin-top: -240px;
+}
+
+.oneday h2 {
+    text-align: center;
+
+
+}
+
+.oneday p {
+    text-align: center;
+    width: 610px;
+    margin-left: 500px;
+    font-family: 'Diphylleia', serif;
+
+}
+
+.oneday #donateButton {
+    padding: 10px 20px;
+    margin-top: 15px;
+    margin-left: 715px;
+    font-size: 18px;
+    background-color: rgba(255, 95, 0, 1);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 40px;
+
+}
+
+.oneday #donateButton:hover {
+    background-color: black;
+}
+
+.oneday #donateButton a {
+    text-decoration: none;
+    color: white
+}
+
+.vaccination img {
+    height: 300px;
+    width: 400px;
+    margin-top: 65px;
+    margin-left: 20px;
+}
+
+.image2vaccination img {
+    height: 300px;
+    width: 400px;
+    margin-top: -235px;
+    margin-left: 1110px;
+}
+
+.vaccination-content {
+    margin-left: -50px;
+}
+
+.vaccination h1 {
+    text-align: center;
+    color: rgba(255, 95, 0, 1);
+    margin-top: -240px;
+}
+
+.vaccination h2 {
+    text-align: center;
+
+
+}
+
+.vaccination p {
+    text-align: center;
+    width: 610px;
+    margin-left: 500px;
+    font-family: 'Diphylleia', serif;
+
+}
+
+.vaccination #donateButton {
+    padding: 10px 20px;
+    margin-top: 15px;
+    margin-left: 715px;
+    font-size: 18px;
+    background-color: rgba(255, 95, 0, 1);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 40px;
+
+}
+
+.vaccination #donateButton:hover {
+    background-color: black;
+}
+
+.vaccination #donateButton a {
+    text-decoration: none;
+    color: white
+}
+
+.medicine img {
+    height: 300px;
+    width: 400px;
+    margin-top: 65px;
+    margin-left: 20px;
+}
+
+.image2medicine img {
+    height: 300px;
+    width: 400px;
+    margin-top: -235px;
+    margin-left: 1110px;
+}
+
+.medicine-content {
+    margin-left: -50px;
+}
+
+.medicine h1 {
+    text-align: center;
+    color: rgba(255, 95, 0, 1);
+    margin-top: -240px;
+}
+
+.medicine h2 {
+    text-align: center;
+
+
+}
+
+.medicine p {
+    text-align: center;
+    width: 610px;
+    margin-left: 500px;
+    font-family: 'Diphylleia', serif;
+
+}
+
+.medicine #donateButton {
+    padding: 10px 20px;
+    margin-top: 15px;
+    margin-left: 715px;
+    font-size: 18px;
+    background-color: rgba(255, 95, 0, 1);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 40px;
+
+}
+
+.medicine #donateButton:hover {
+    background-color: black;
+}
+
+.medicine #donateButton a {
+    text-decoration: none;
+    color: white
+}
+
+.vegeterians img {
+    height: 300px;
+    width: 400px;
+    margin-top: 65px;
+    margin-left: 20px;
+}
+
+.image2vegeterians img {
+    height: 300px;
+    width: 400px;
+    margin-top: -235px;
+    margin-left: 1110px;
+}
+
+.vegeterians-content {
+    margin-left: -50px;
+}
+
+.vegeterians h1 {
+    text-align: center;
+    color: rgba(255, 95, 0, 1);
+    margin-top: -240px;
+}
+
+.vegeterians h2 {
+    text-align: center;
+
+
+}
+
+.vegeterians p {
+    text-align: center;
+    width: 610px;
+    margin-left: 500px;
+    font-family: 'Diphylleia', serif;
+
+}
+
+.vegeterians #donateButton {
+    padding: 10px 20px;
+    margin-top: 15px;
+    margin-left: 715px;
+    font-size: 18px;
+    background-color: rgba(255, 95, 0, 1);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 40px;
+
+}
+
+.vegeterians #donateButton:hover {
+    background-color: black;
+}
+
+.vegeterians #donateButton a {
+    text-decoration: none;
+    color: white
+}
+
+.parents img {
+    height: 300px;
+    width: 400px;
+    margin-top: 65px;
+    margin-left: 20px;
+}
+
+.image2parents img {
+    height: 300px;
+    width: 400px;
+    margin-top: -235px;
+    margin-left: 1110px;
+}
+
+.parents-content {
+    margin-left: -50px;
+}
+
+.parents h1 {
+    text-align: center;
+    color: rgba(255, 95, 0, 1);
+    margin-top: -240px;
+}
+
+.parents h2 {
+    text-align: center;
+
+
+}
+
+.parents p {
+    text-align: center;
+    width: 610px;
+    margin-left: 500px;
+    font-family: 'Diphylleia', serif;
+
+}
+
+.parents #donateButton {
+    padding: 10px 20px;
+    margin-top: 15px;
+    margin-left: 715px;
+    font-size: 18px;
+    background-color: rgba(255, 95, 0, 1);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 40px;
+
+}
+
+.parents #donateButton:hover {
+    background-color: black;
+}
+
+.parents #donateButton a {
+    text-decoration: none;
+    color: white
+}
+
+.sterilization img {
+    height: 300px;
+    width: 400px;
+    margin-top: 65px;
+    margin-left: 20px;
+}
+
+.image2strerilization img {
+    height: 300px;
+    width: 400px;
+    margin-top: -235px;
+    margin-left: 1110px;
+}
+
+.sterilization-content {
+    margin-left: -50px;
+}
+
+.sterilization h1 {
+    text-align: center;
+    color: rgba(255, 95, 0, 1);
+    margin-top: -240px;
+}
+
+.sterilization h2 {
+    text-align: center;
+
+
+}
+
+.sterilization p {
+    text-align: center;
+    width: 610px;
+    margin-left: 500px;
+    font-family: 'Diphylleia', serif;
+
+}
+
+.sterilization #donateButton {
+    padding: 10px 20px;
+    margin-top: 15px;
+    margin-left: 715px;
+    font-size: 18px;
+    background-color: rgba(255, 95, 0, 1);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 40px;
+
+}
+
+.sterilization #donateButton:hover {
+    background-color: black;
+}
+
+.sterilization #donateButton a {
+    text-decoration: none;
+    color: white
+}
+
+.surgery img {
+    height: 300px;
+    width: 400px;
+    margin-top: 65px;
+    margin-left: 20px;
+}
+
+.image2surgery img {
+    height: 300px;
+    width: 400px;
+    margin-top: -235px;
+    margin-left: 1110px;
+}
+
+.surgery-content {
+    margin-left: -50px;
+}
+
+.surgery h1 {
+    text-align: center;
+    color: rgba(255, 95, 0, 1);
+    margin-top: -240px;
+}
+
+.surgery h2 {
+    text-align: center;
+
+
+}
+
+.surgery p {
+    text-align: center;
+    width: 610px;
+    margin-left: 500px;
+    font-family: 'Diphylleia', serif;
+
+}
+
+.surgery #donateButton {
+    padding: 10px 20px;
+    margin-top: 15px;
+    margin-left: 715px;
+    font-size: 18px;
+    background-color: rgba(255, 95, 0, 1);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 40px;
+
+}
+
+.surgery #donateButton:hover {
+    background-color: black;
+}
+
+.surgery #donateButton a {
+    text-decoration: none;
+    color: white
+}
+
+.oldsouls img {
+    height: 300px;
+    width: 400px;
+    margin-top: 65px;
+    margin-left: 20px;
+}
+
+.image2oldsouls img {
+    height: 300px;
+    width: 400px;
+    margin-top: -235px;
+    margin-left: 1110px;
+}
+
+.oldsouls-content {
+    margin-left: -50px;
+}
+
+.oldsouls h1 {
+    text-align: center;
+    color: rgba(255, 95, 0, 1);
+    margin-top: -240px;
+}
+
+.oldsouls h2 {
+    text-align: center;
+
+
+}
+
+.oldsouls p {
+    text-align: center;
+    width: 610px;
+    margin-left: 500px;
+    font-family: 'Diphylleia', serif;
+
+}
+
+.oldsouls #donateButton {
+    padding: 10px 20px;
+    margin-top: 15px;
+    margin-left: 715px;
+    font-size: 18px;
+    background-color: rgba(255, 95, 0, 1);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 40px;
+
+}
+
+.oldsouls #donateButton:hover {
+    background-color: black;
+}
+
+.oldsouls #donateButton a {
+    text-decoration: none;
+    color: white
+}
+
+.cleaning img {
+    height: 300px;
+    width: 400px;
+    margin-top: 65px;
+    margin-left: 20px;
+}
+
+.image2cleaning img {
+    height: 300px;
+    width: 400px;
+    margin-top: -235px;
+    margin-left: 1110px;
+}
+
+.cleaning-content {
+    margin-left: -50px;
+}
+
+.cleaning h1 {
+    text-align: center;
+    color: rgba(255, 95, 0, 1);
+    margin-top: -240px;
+}
+
+.cleaning h2 {
+    text-align: center;
+
+
+}
+
+.cleaning p {
+    text-align: center;
+    width: 610px;
+    margin-left: 500px;
+    font-family: 'Diphylleia', serif;
+
+}
+
+.cleaning #donateButton {
+    padding: 10px 20px;
+    margin-top: 15px;
+    margin-left: 715px;
+    font-size: 18px;
+    background-color: rgba(255, 95, 0, 1);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 40px;
+
+}
+
+.cleaning #donateButton:hover {
+    background-color: black;
+}
+
+.cleaning #donateButton a {
+    text-decoration: none;
+    color: white
+}
+
+
+
+
+
+
+.follow {
+    margin-left: 45px
+}
+
+.follow p {
+    text-align: center;
+    margin-top: -45px;
+
+
+}
+
+.footericons {
+    display: flex;
+    margin-top: -65px
+}
+
+.footericons img {
+    height: 30px;
+    align-items: center;
+}
+
+
+
+footer {
+    margin-top: 300px;
+    position: relative;
+    height: 150px;
+    background-color: #138808;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
